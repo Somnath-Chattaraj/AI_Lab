@@ -1,0 +1,16 @@
+# Missionaries and Cannibals Problem Input
+
+# Initial State: (Number of missionaries on left bank, number of cannibals on left bank, boat side (0 = left, 1 = right))
+initial_state = (3, 3, 0)
+
+# Goal State: (Goal configuration for missionaries and cannibals)
+goal_state = (0, 0, 1)
+
+# Search algorithm parameters:
+
+# Depth Limit for DLS and IDS
+dls_depth_limit = 3
+ids_max_depth = 5
+
+# Maximum iterations for ILS
+ils_max_iterations = 100
